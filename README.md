@@ -2,7 +2,7 @@
 This is the R code that produces 365 daily tweets with fun facts taken from the Cleveland Museum of Art's open data.
 
 ## Data
-Information about the museum's open access canpolicy  be found here: 
+Information about the museum's open access can policy  be found here: 
 
 http://www.clevelandart.org/open-access
 
