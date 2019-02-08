@@ -2,7 +2,7 @@
 This is the R code that produces 365 daily tweets with fun facts taken from the Cleveland Museum of Art's open data.
 
 ## Data
-Information about open access can be found here: 
+Information about the museum's open access canpolicy  be found here: 
 
 http://www.clevelandart.org/open-access
 
@@ -17,4 +17,4 @@ https://autochirp.spinfo.uni-koeln.de/home
 It requires a TSV with certain fields, no line breaks, UTF8.
 
 ## Result
-The resulting twitter account can be found here: ...
+The resulting twitter account can be found here: https://twitter.com/ClevelandartF
