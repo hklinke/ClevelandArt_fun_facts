@@ -1,5 +1,5 @@
 # ClevelandArt_fun_facts
-This is the R code that produces tweets with fun facts taken from the Cleveland Museum of Art's open data.
+This is the R code that produces 365 daily tweets with fun facts taken from the Cleveland Museum of Art's open data.
 
 ## Data
 Information about open access can be found here: 
@@ -15,3 +15,6 @@ For scheduled tweets, autochirp from the University of Cologne is used
 https://autochirp.spinfo.uni-koeln.de/home
 
 It requires a TSV with certain fields, no line breaks, UTF8.
+
+## Result
+The resulting twitter account can be found here: ...
