@@ -6,7 +6,7 @@ Information about the museum's open access can policy be found here:
 http://www.clevelandart.org/open-access
 
 ## R Code
-With the CSV file imported, this code creates a subset with non-empty fields od "fun_fact", downloads the images, creates flashcards with the image, fun fact, title and date on a background with the images's average color and creates a TSV file for upload. 
+With the CSV file imported, this code creates a subset with non-empty fields of "fun_fact", downloads the images, creates flashcards with the image, fun fact, title and date on a background with the images's average color and creates a TSV file for upload. 
 
 ## Tweet Bot
 For scheduled tweets, autochirp from the University of Cologne is used: 
