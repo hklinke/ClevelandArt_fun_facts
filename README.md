@@ -12,7 +12,7 @@ With the CSV file imported, this code creates a subset with non-empty fields of 
 For scheduled tweets, autochirp from the University of Cologne is used: 
 https://autochirp.spinfo.uni-koeln.de/home
 
-It requires a TSV with certain fields, no line breaks, UTF8.
+It requires a TSV with the fields date, time, tweet content, image attachment, latitude, longitude in UTF8. Line breaksare allowed if the escape sequence is [retained](https://twitter.com/spinfocl/status/1093991712844902403).
 
 ## Result
 The resulting twitter account can be found here: https://twitter.com/ClevelandartF
