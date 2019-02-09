@@ -2,6 +2,8 @@
 This is the R code that produces 365 daily tweets with fun facts taken from the Cleveland Museum of Art's open data.
 
 ## Data
+The open data contain a filed "[fun_fact](https://twitter.com/HxxxKxxx/status/1088507121002516480)" to some of the objects as well as URLs to images of the objects.
+
 Information about the museum's open access can policy be found here: 
 http://www.clevelandart.org/open-access
 
@@ -16,8 +18,7 @@ Possible errors found in data:
 With the CSV file imported, this code creates a subset with non-empty fields of "fun_fact", downloads the images, creates flashcards with the image, fun fact, title and date on a background with the images's average color and subsequently a TSV file for upload to autochirp. 
 
 ## Tweet Bot
-For scheduled tweets, autochirp from the University of Cologne is used: 
-https://autochirp.spinfo.uni-koeln.de/home
+For scheduled tweets, [autochirp](https://autochirp.spinfo.uni-koeln.de/home) from the University of Cologne is used.
 
 It requires a TSV with the fields date, time, tweet content, image attachment, latitude, longitude in UTF8. Line breaksare allowed if the escape sequence is [retained](https://twitter.com/spinfocl/status/1093991712844902403).
 
