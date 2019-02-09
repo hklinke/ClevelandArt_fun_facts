@@ -1,5 +1,5 @@
 # ClevelandArt_fun_facts
-This is the R code that produces 365 daily tweets with fun facts taken from the Cleveland Museum of Art's open data.
+This is the R code to the tweetbot that produces 365  chronologic daily tweets with fun facts taken from the Cleveland Museum of Art's open data. A project by [@HxxxKxxx](https://twitter.com/hxxxkxxx)
 
 ## Data
 The open data contain a filed "[fun_fact](https://twitter.com/HxxxKxxx/status/1088507121002516480)" to some of the objects as well as URLs to images of the objects.
