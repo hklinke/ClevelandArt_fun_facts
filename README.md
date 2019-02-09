@@ -15,7 +15,7 @@ Possible errors found in data:
 
 
 ## R Code
-With the CSV file imported, this code creates a subset with non-empty fields of "fun_fact", downloads the images, creates flashcards with the image, fun fact, title and date on a background with the images's average color and subsequently a TSV file for upload to autochirp. 
+With the CSV file imported, this code creates a subset with non-empty fields of "fun_fact", downloads the images, creates flashcards with the image, fun fact, title and date on a background with the images's average color and subsequently a TSV file for upload to autochirp. It makes use of the package [Imager](https://cran.r-project.org/web/packages/imager/index.html). 
 
 ## Tweet Bot
 For scheduled tweets, [autochirp](https://autochirp.spinfo.uni-koeln.de/home) from the University of Cologne is used.
