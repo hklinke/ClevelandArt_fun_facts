@@ -15,12 +15,12 @@ Possible errors found in data:
 
 
 ## R Code
-With the CSV file imported, this code creates a subset with non-empty fields of "fun_fact", downloads the images, creates flashcards with the image, fun fact, title and date on a background with the images's average color and subsequently a TSV file for upload to autochirp. It makes use of the package [Imager](https://cran.r-project.org/web/packages/imager/index.html). 
+With the CSV file imported, this code creates a subset with non-empty fields of "fun_fact", downloads the images, creates flashcards with the image, fun fact, title and date on a background with the images' average color and subsequently a TSV file for upload to autochirp. It makes use of the package [Imager](https://cran.r-project.org/web/packages/imager/index.html). 
 
 ## Tweet Bot
 For scheduled tweets, [autochirp](https://autochirp.spinfo.uni-koeln.de/home) from the University of Cologne is used.
 
-It requires a TSV with the fields date, time, tweet content, image attachment, latitude, longitude in UTF8. Line breaksare allowed if the escape sequence is [retained](https://twitter.com/spinfocl/status/1093991712844902403).
+It requires a TSV with the fields date, time, tweet content, image attachment, latitude, longitude in UTF8. Line breaks are allowed if the escape sequence is [retained](https://twitter.com/spinfocl/status/1093991712844902403).
 
 ## Result
 The resulting twitter account can be found here: https://twitter.com/CArt_fun_facts
