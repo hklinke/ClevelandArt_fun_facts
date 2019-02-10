@@ -8,8 +8,8 @@ Information about the museum's open access can policy be found here:
 http://www.clevelandart.org/open-access
 
 Possible errors found in data: 
--	Fun_fact contains “\&quot;” , “\<em>”, “\</em>”, “<U+0085>” 
--	Both Tombstone and title contain “\n” and “\r”
+-	Some Fun_fact contains “\&quot;” , “\<em>”, “\</em>”, “<U+0085>” 
+-	Some of both Tombstone and Title contain “\n” and “\r”
 -	Dates BC are a positive number in creation_date_earliest
 -	[Rousseau](http://www.clevelandart.org/art/1980.18) has a fun_fact on Pollock
 
