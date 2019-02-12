@@ -102,7 +102,7 @@ for (i in 1:nrow(funfactsonly)) {
     #Add lower half
     this_image=pad(this_image,
              axes="y",1263-height(this_image), pos=1, 
-             val=c(funfactsonly$av_r[i],funfactsonly$av_g[i],funfactsonly$av_b[i]))
+             val=background_col )
     #Add text
     caption_margin=50
     #Font color depending on brightness
@@ -152,7 +152,7 @@ for (i in 1:nrow(funfactsonly)) {
 # Create tweets
 tweet_imgurl="http://yourdomain/ClevelandArt_fun_facts/" #This is the folder in the web
 tweet_line_break="\\n" #Retain line break
-remove(tweet_tsv) #If you repeat this, make sure it is empty
+#remove(tweet_tsv) #If you repeat this, make sure it is empty
 tweet_tsv=setNames(data.frame(matrix(ncol = 6, nrow = 0)), 
                    c("Date", "Time", "Tweet", "Picture", "Longitude", "Lattitude"))
 tweet_date=as.Date("2019-02-10")
