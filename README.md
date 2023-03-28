@@ -1,7 +1,7 @@
 # ClevelandArt_fun_facts
 This is the R code to the tweetbot that produces 365 daily tweets with fun facts taken from the Cleveland Museum of Art's open data. A project by [@HxxxKxxx](https://twitter.com/hxxxkxxx)
 
-Update: I have updated my tweetbot in March 2023! Now, it uses GPT-4 to compose tweets by directly sourcing from the API. Using the elements "title", "description", and "fun_fact", it generates a tweet and sends it to Twitter along with the URL and the first image. This is not represented in the code here.
+Update: I have updated my tweetbot in March 2023! Now, it uses [GPT-4](https://openai.com/product/gpt-4) to compose tweets by directly sourcing from the API. Using the elements "title", "description", and "fun_fact", it generates a tweet and sends it to Twitter along with the URL and the first image. This is not represented in the code here.
 
 ## Data
 The open data contain a filed "[fun_fact](https://twitter.com/HxxxKxxx/status/1088507121002516480)" to some of the objects as well as URLs to images of the objects. 365 have both a fun_fact and an image. 
